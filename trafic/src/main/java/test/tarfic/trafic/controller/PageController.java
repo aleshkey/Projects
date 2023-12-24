@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.*;
 import test.tarfic.trafic.model.Page;
 import test.tarfic.trafic.repository.PageRepository;
 
-import java.security.Principal;
 import java.util.Optional;
 
 @RestController
@@ -33,7 +32,5 @@ public class PageController {
         var pages = pageRepository.findAll();
         return new ResponseEntity<>(pages, HttpStatus.OK);
     }
-
-
 
 }

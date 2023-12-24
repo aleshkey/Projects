@@ -10,7 +10,6 @@ import test.tarfic.trafic.repository.UserRepository;
 
 import java.text.SimpleDateFormat;
 import java.time.Duration;
-import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Map;
 
